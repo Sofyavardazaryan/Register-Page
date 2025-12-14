@@ -1,0 +1,51 @@
+.register {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 500px;
+  margin: 80px auto;
+  padding: 40px;
+  border-radius: 12px;
+  background-color: #385075;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.register h1 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+
+.register input {
+  padding: 12px 15px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 15px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.register input:focus {
+  border-color: #3f4041;
+  box-shadow: 0 0 6px rgba(18, 42, 122, 0.3);
+}
+
+
+.register button {
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  background: #ffffff;
+  color: #383030;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.register button:hover {
+  background: #ffffff;
+  transform: scale(1.05);
+}
